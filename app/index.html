@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Los 3 meta tags de arriba *TIENEN* que ir siempre al principio de nuestro head; cualquier otro contenido dentro del head tiene que ir *DESPUES* de esos tags -->
+    <meta name="description" content="Descripción de nuestro sitio/app">
+    <meta name="author" content="Escuela Dev Rock">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Template Escuela Dev Rock</title>
+
+    <!-- build:css /css/main.min.css -->
+     <link href="/css/bootstrap.min.css" rel="stylesheet">
+     <link href="/css/main.css" rel="stylesheet">
+     <!-- endbuild -->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-static-top navbar-light bg-faded">
+      <a href="#" class="navbar-brand">
+        <!-- DEV ROCK -->
+        <img src="img/logo.png" width="50" alt="" />
+      </a>
+      <ul class="nav navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cursos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Precios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Acerca de Dev Rock</a>
+        </li>
+      </ul>
+    </nav>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img class="first-slide" src="img/img1.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption text-xs-left">
+              <h1>#Frontend</h1>
+              <p>Curso de Frontend</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Más info</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="second-slide" src="img/img2.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>#MEAN</h1>
+              <p>Curso de Mongo, Express, Angular y Node. todo lo que tenes que saber para ser un ninja.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Más info</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="third-slide" src="img/img3.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption text-xs-right">
+              <h1>#Fullstack</h1>
+              <p>#Frontend + #MEAN = #Fullstack</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Más info</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/frontend.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>#Frontend</h2>
+          <p>Para aquellas personas que quieran convertise en la pieza más buscada del desarrollo web.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">+ info &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/mean.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>#MEAN</h2>
+          <p>Mongo / Express / Angular / NodeJs<br>Intensivo de tecnologías Javascript.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">+ info &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/full.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>#Fullstack</h2>
+          <p>A curiosos del desarrollo que quieran aprender a manejar distintas tecnologías.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">+ info &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">#Frontend</h2>
+          <p class="lead">Para aquellas personas que quieran convertise en la pieza más buscada del desarrollo web.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid center-block" src="img/frontenders.jpg" alt="Frontenders">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">#Mean</h2>
+          <p class="lead">Mongo / Express / Angular / NodeJs<br>Intensivo de tecnologías Javascript.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-fluid center-block" src="img/developers.jpg" alt="Developers">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">#Fullstack</h2>
+          <p class="lead">A curiosos del desarrollo que quieran aprender a manejar distintas tecnologías.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid center-block" src="img/fullstackers.jpg" alt="Fullstackers">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-xs-right"><a href="#">Volver arriba</a></p>
+        <p>&copy; 2016 Escuela Dev Rock. &middot; <a href="#">Contacto</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- build:js /js/vendors.min.js -->
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

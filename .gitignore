@@ -1,0 +1,8 @@
+node_modules
+dist
+app/styles
+.DS_Store
+.sass-cache
+.sass-cache/*
+app/.sass-cache
+**/.sass-cache/*
